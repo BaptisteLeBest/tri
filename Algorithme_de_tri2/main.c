@@ -151,13 +151,7 @@ void tri_rapide(struct inhabitant *h, int start, int end)
 
 int main()
 {
-	struct inhabitant *inhabs0;
-	read(&inhabs0, &nb_h); // On lit le fichier
-
-	//tri_bulles(inhabs0, nb_h);
-	tri_rapide(inhabs0, 0, nb_h); // On le tri
-
-	printout(nb_h, inhabs0); // On ecrit le resultat dans un fichier
+	printf("Licorne");
 	
 	return 0;
 }
